@@ -1,0 +1,19 @@
+{
+  "name": "selenium-js",
+  "version": "1.0.0",
+  "description": "This is a simple selenium POM with JavaScript and Cucumber JS",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js --require /pages/**/*.js --require features/**/steps/**/*.steps.js  --format-options \"{\\\"snippetInterface\\\": \\\"async-await\\\"}\" ./features"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^86.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.0.0-rc.0",
+    "cucumber": "^7.0.0-rc.0"
+  }
+}
